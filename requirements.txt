@@ -1,0 +1,5 @@
+# minimum versions (the code runs; bit-identical results need requirements-exact.txt, see README)
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+threadpoolctl>=3.0

@@ -1,0 +1,5 @@
+# Exact versions of the paper's runs (Python 3.13, Linux x86-64): needed for bit-identical reproduction
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+threadpoolctl==3.7.0
