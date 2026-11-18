@@ -1,0 +1,16 @@
+\begin{tabular}{llcc}
+\toprule
+Problem & Net & AdamW & Yogi\\
+\midrule
+Pantograph & PINN & \makecell{\textbf{0.059 [0.04, 0.086]}\\{\footnotesize $p_{\mathrm{H}}$=0.001, 5/5}} & \makecell{\textbf{0.02 [0.019, 0.022]}\\{\footnotesize $p_{\mathrm{H}}$<0.001, 5/5}}\\
+Pantograph & PIKAN & \makecell{0.0087 [1e-6, 73]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 5/5}} & \makecell{\textbf{0.095 [0.083, 0.11]}\\{\footnotesize $p_{\mathrm{H}}$<0.001, 5/5}}\\
+Fin & PINN & \makecell{\textbf{0.066 [0.053, 0.083]}\\{\footnotesize $p_{\mathrm{H}}$<0.001, 5/5}} & \makecell{\textbf{0.026 [0.021, 0.033]}\\{\footnotesize $p_{\mathrm{H}}$<0.001, 5/5}}\\
+Fin & PIKAN & \makecell{0.057 [0.0046, 0.7]\\{\footnotesize $p_{\mathrm{H}}$=0.609, 5/5}} & \makecell{\textbf{0.054 [0.043, 0.068]}\\{\footnotesize $p_{\mathrm{H}}$<0.001, 5/5}}\\
+Bar & PINN & \makecell{1.5 [0.96, 2.3]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 1/5}} & \makecell{0.77 [0.55, 1.1]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 4/5}}\\
+Bar & PIKAN & \makecell{0.009 [0.00025, 0.32]\\{\footnotesize $p_{\mathrm{H}}$=0.427, 5/5}} & \makecell{0.027 [0.0055, 0.13]\\{\footnotesize $p_{\mathrm{H}}$=0.079, 5/5}}\\
+Cable & PINN & \makecell{1.9 [0.76, 4.7]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 1/5}} & \makecell{1.6 [0.71, 3.6]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 2/5}}\\
+Cable & PIKAN & \makecell{1.2 [0.83, 1.8]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 2/5}} & \makecell{1.1 [0.81, 1.5]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 2/5}}\\
+Plate & PINN & \makecell{1.6 [0.77, 3.3]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 1/5}} & \makecell{1.1 [0.19, 7]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 1/5}}\\
+Plate & PIKAN & \makecell{1.7 [0.67, 4.4]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 1/5}} & \makecell{1.6 [0.82, 3]\\{\footnotesize $p_{\mathrm{H}}$=1.000, 2/5}}\\
+\bottomrule
+\end{tabular}
