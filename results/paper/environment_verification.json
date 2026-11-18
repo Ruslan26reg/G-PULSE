@@ -1,0 +1,35 @@
+{
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "os": "Linux-6.18.44-fc-v338-x86_64-with-glibc2.39",
+ "machine": "x86_64",
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "logical_cpus": 2,
+ "memory_gb": 7.8,
+ "gpu": "none (all computations on the CPU)",
+ "numpy_simd_baseline": [
+  "X86_V2"
+ ],
+ "numpy_simd_dispatch_in_use": [
+  "X86_V3",
+  "X86_V4"
+ ],
+ "blas": {
+  "library": "openblas",
+  "version": "0.3.34.106.0",
+  "kernel": "SkylakeX",
+  "threads": 1
+ },
+ "variables": {
+  "OPENBLAS_CORETYPE": "SkylakeX",
+  "NPY_ENABLE_CPU_FEATURES": "X86_V3 X86_V4",
+  "OMP_NUM_THREADS": "1"
+ },
+ "exact_reproduction_check": {
+  "numpy_scipy_versions": true,
+  "numpy_simd_level": true,
+  "blas_kernel": true,
+  "exact": true
+ }
+}
